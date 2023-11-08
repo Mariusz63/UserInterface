@@ -33,12 +33,14 @@ public class  TaskListFragment extends Fragment {
         }
     }
 
+
     @Override
     public void onResume(){
         super.onResume();
         updateView();
     }
 
+    @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
         View view = inflater.inflate(R.layout.fragment_task_list, container, false);

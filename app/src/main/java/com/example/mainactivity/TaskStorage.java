@@ -22,6 +22,10 @@ public class  TaskStorage {
         }
     }
 
+    public void addTask(Task task){
+        tasks.add(task);
+    }
+
     public List<Task> getTaskList() {
         return tasks;
     }
